@@ -32,5 +32,6 @@ RUN mkdir -p /data && \
 ADD start-zeppelin.sh /
 
 EXPOSE 8080
+VOLUME ["/opt/zeppelin/notebook", "/data"]
 
 CMD [ "/start-zeppelin.sh" ]
