@@ -9,4 +9,4 @@ This docker container packs a ready to run zeppelin in the default configuration
 
 Start:
 
-    docker run -p 8080:8080 -v zeppelin-notebooks:/opt/zeppelin/notebook zeppelin
+    docker run -p 8080:8080 -v zeppelin-notebooks:/opt/zeppelin/notebook msiegenthaler/zeppelin
